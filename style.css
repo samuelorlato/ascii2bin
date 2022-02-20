@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Anonymous Pro", monospace;
+    color: rgb(0, 201, 0);
+    background-color: black;
+}
+textarea,
+button {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 201, 0);
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+textarea:focus {
+    outline: none;
+}
+textarea {
+    resize: none;
+}
+button:hover {
+    cursor: pointer;
+}
+body {
+    padding: 3rem;
+}
+#box {
+    display: flex;
+    flex-direction: column;
+}
+#result {
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
